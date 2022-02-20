@@ -1,10 +1,10 @@
-package com.example.newsapp.ui.uli
+package com.example.newsapp.ui.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(
-    tableName = "acticles"
+    tableName = "articles"
 )
 
 data class Article(
